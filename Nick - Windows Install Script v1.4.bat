@@ -62,6 +62,7 @@
   cinst git -y
   cinst nodejs -y
   cinst npm -y
+  cinst filezilla -y
   cinst tortoisegit -y
   cinst miktex -y
   goto end
