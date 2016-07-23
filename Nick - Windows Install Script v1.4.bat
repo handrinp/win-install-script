@@ -60,6 +60,7 @@
   cinst winrar -y
   cinst cygwin -y
   cinst git -y
+  cinst nodejs -y
   cinst npm -y
   cinst tortoisegit -y
   cinst miktex -y
