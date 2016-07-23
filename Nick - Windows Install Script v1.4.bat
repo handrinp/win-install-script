@@ -59,7 +59,8 @@
   cinst spotify -y
   cinst winrar -y
   cinst cygwin -y
-  cinst git.commandline -y
+  cinst git -y
+  cinst npm -y
   cinst tortoisegit -y
   cinst miktex -y
   goto end
