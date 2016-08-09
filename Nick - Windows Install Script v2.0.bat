@@ -17,12 +17,12 @@
   if '%installPrograms%' == 'y' set willInstallPrograms=true
   if '%installPrograms%' == 'Y' set willInstallPrograms=true
   @powershell -NoProfile -ExecutionPolicy unrestricted -Command "iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))" && SET PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin
-  if not '%willInstallPrograms%' == 'true' goto cancel
-  goto install
+  if not '%willInstallPrograms%' == 'true' (
+    pause
+    exit
+  )
 
-:cancel
-  echo Cancelled
-  goto end
+:install
 
 :drivers
   choco install geforce-experience -y
@@ -69,6 +69,6 @@
   choco install blender -y
   choco install steam -y
 
-:end
-  pause
-  exit
+:cancel
+  echo Cancelled
+  goto end
