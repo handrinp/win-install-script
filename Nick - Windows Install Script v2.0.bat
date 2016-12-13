@@ -31,11 +31,12 @@
 
 :essentials
   choco install firefox -y
+  choco install deluge -y
   choco install vlc -y
   choco install 7zip -y
   choco install silverlight -y
   choco install sumatrapdf -y
-  choco install libreoffice -y
+  choco install openoffice -y
 
 :tools
   choco install gpu-z -y
@@ -57,14 +58,12 @@
   choco install eclipse -y
   choco install git -y
   choco install tortoisegit -y
-  choco install unity -y
   choco install npm -y
   choco install nodejs -y
   choco install filezilla -y
   choco install miktex -y
 
 :media
-  choco install deluge -y
   choco install fraps -y
   choco install blender -y
   choco install steam -y
