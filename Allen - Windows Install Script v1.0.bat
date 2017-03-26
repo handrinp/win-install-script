@@ -42,9 +42,7 @@
   cinst vlc -y
   cinst steam -y
   cinst realtek-hd-audio-driver -y
-  cinst handbrake -y
   cinst qbittorrent -y
-  cinst blender -y
   cinst jdk8 -y
   cinst gimp -y
   cinst mumble -y
